@@ -1,4 +1,4 @@
-# Centos 6.3 Vagrant
+# CentOS 6.3 with Vagrant
 
 ## Requirements
 
