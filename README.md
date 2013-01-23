@@ -2,25 +2,15 @@
 
 ## Requirements
 
-- Git
-- Ruby & RubyGems (or RVM)
-- Vagrant
-- VirtualBox 4.2.6
+- Ruby & RubyGems (or [RVM](https://rvm.io/))
+- [VirtualBox 4.2.6](https://www.virtualbox.org/)
 
-## Preparation
+## Build
 
-### Install Vagrant
+Run `./build.sh` to generate the box.
 
-    $ gem install vagrant
+Once the box has been built you can start it up and SSH to it with the following:
 
-### Add CentOS 6.3 Base Box
-
-This can be done via the project <https://github.com/spilth/veewee-centos63>
-
-## Installation
-
-    $ git clone https://github.com/spilth/vagrant-centos63
-    $ cd vagrant-centos63
     $ vagrant up
     $ vagrant ssh
 
